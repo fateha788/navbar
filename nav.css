@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    background-color: chartreuse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+h1{
+    font-size: 30px;
+    color: rgb(255, 17, 0);
+}
+.menu{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px 30px;
+    display: block;
+    transition: all .4s ease;
+}
+li a:hover{
+    background-color: brown;
+    color: beige;
+}
+.searchButton{
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+
+
+
+
+
+.parent{
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    margin: 50px 200px;
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+.child>p::first-letter{
+    font-size: 30px;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+
+button{
+    border: none;
+    padding: 20px;
+    background-color: chartreuse;
+    color: black;
+    border-radius: 20px;
+    margin-top: 15px;
+}
